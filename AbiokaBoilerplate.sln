@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbiokaBoilerplate.Infrastructure.Common", "AbiokaBoilerplate.Infrastructure.Common\AbiokaBoilerplate.Infrastructure.Common.csproj", "{9B9A798B-6679-44F1-B0EC-0F4FFE0F1801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbiokaBoilerplate.Domain", "AbiokaBoilerplate.Domain\AbiokaBoilerplate.Domain.csproj", "{3D1C97C7-32A6-403F-9430-EB35EE79E0D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbiokaBoilerplate.Data", "AbiokaBoilerplate.Data\AbiokaBoilerplate.Data.csproj", "{F58F5066-531F-4CA5-9396-DE54B1E7712B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbiokaBoilerplate.ApplicationService", "AbiokaBoilerplate.ApplicationService\AbiokaBoilerplate.ApplicationService.csproj", "{7CE90890-8721-4EE6-A828-AF2D00BF0F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbiokaBoilerplate.Infrastructure.Framework", "AbiokaBoilerplate.Infrastructure.Framework\AbiokaBoilerplate.Infrastructure.Framework.csproj", "{D62795E8-D7A5-405D-BDF3-155301914ABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbiokaBoilerplate.Host", "AbiokaBoilerplate.Host\AbiokaBoilerplate.Host.csproj", "{624213AF-93F6-430C-96DF-F7AD9C169318}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B9A798B-6679-44F1-B0EC-0F4FFE0F1801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9A798B-6679-44F1-B0EC-0F4FFE0F1801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9A798B-6679-44F1-B0EC-0F4FFE0F1801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9A798B-6679-44F1-B0EC-0F4FFE0F1801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1C97C7-32A6-403F-9430-EB35EE79E0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1C97C7-32A6-403F-9430-EB35EE79E0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1C97C7-32A6-403F-9430-EB35EE79E0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1C97C7-32A6-403F-9430-EB35EE79E0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58F5066-531F-4CA5-9396-DE54B1E7712B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58F5066-531F-4CA5-9396-DE54B1E7712B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58F5066-531F-4CA5-9396-DE54B1E7712B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58F5066-531F-4CA5-9396-DE54B1E7712B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE90890-8721-4EE6-A828-AF2D00BF0F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE90890-8721-4EE6-A828-AF2D00BF0F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE90890-8721-4EE6-A828-AF2D00BF0F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE90890-8721-4EE6-A828-AF2D00BF0F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D62795E8-D7A5-405D-BDF3-155301914ABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D62795E8-D7A5-405D-BDF3-155301914ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D62795E8-D7A5-405D-BDF3-155301914ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D62795E8-D7A5-405D-BDF3-155301914ABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624213AF-93F6-430C-96DF-F7AD9C169318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624213AF-93F6-430C-96DF-F7AD9C169318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624213AF-93F6-430C-96DF-F7AD9C169318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624213AF-93F6-430C-96DF-F7AD9C169318}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

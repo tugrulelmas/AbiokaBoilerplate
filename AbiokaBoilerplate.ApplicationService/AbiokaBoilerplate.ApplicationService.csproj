@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="6.4.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AbiokaBoilerplate.Data\AbiokaBoilerplate.Data.csproj" />
+    <ProjectReference Include="..\AbiokaBoilerplate.Domain\AbiokaBoilerplate.Domain.csproj" />
+    <ProjectReference Include="..\AbiokaBoilerplate.Infrastructure.Common\AbiokaBoilerplate.Infrastructure.Common.csproj" />
+  </ItemGroup>
+
+</Project>
