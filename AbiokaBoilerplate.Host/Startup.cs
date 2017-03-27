@@ -35,6 +35,7 @@ namespace AbiokaBoilerplate.Host
             loggerFactory.AddDebug();
 
             app.UseMvc();
+            app.UseCustomMiddleware();
         }
     }
 }

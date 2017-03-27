@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using AbiokaBoilerplate.ApplicationService.Abstractions;
 using Microsoft.AspNetCore.Mvc;
-using AbiokaBoilerplate.ApplicationService.Abstractions;
+using System.Collections.Generic;
 
 namespace AbiokaBoilerplate.Host.Controllers
 {

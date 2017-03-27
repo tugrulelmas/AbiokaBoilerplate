@@ -117,7 +117,7 @@ namespace AbiokaBoilerplate.Infrastructure.Framework.IoC
         {
             if (lifeStyle == LifeStyle.PerWebRequest)
             {
-                return builder.InstancePerRequest();
+                return builder.InstancePerLifetimeScope();
             }
 
             if (lifeStyle == LifeStyle.Transient)

@@ -5,15 +5,17 @@ using AbiokaBoilerplate.Infrastructure.Common.Authentication;
 
 namespace AbiokaBoilerplate.Infrastructure.Common.Helper
 {
-    public class ContextHolder : ICurrentContext
+    public class ContextHolder : IContextHolder
     {
         // TODO: implement
-        public ICurrentContext Current => null;
+        public object GetData(string name)
+        {
+            throw new NotImplementedException();
+        }
 
-        public ICustomPrincipal Principal { get; set; }
-
-        public ActionType ActionType { get; set; }
-
-        public string IP { get; set; }
+        public void SetData(string name, object data)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

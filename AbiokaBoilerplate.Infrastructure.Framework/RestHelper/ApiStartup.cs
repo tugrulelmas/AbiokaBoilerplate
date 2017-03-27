@@ -14,7 +14,7 @@ namespace AbiokaBoilerplate.Infrastructure.Framework.RestHelper
         {
             services.AddDbContext<AbiokaDbContext>();
             // Add framework services.
-            services.AddMvc().AddControllersAsServices();
+            services.AddMvc();//.AddControllersAsServices();
 
             services.AddScoped<CustomActionFilter>();
 
